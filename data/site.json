@@ -1,0 +1,252 @@
+{
+  "company": {
+    "name": "PowerTech Electricals",
+    "tagline": "Professional Electrical Solutions",
+    "phone": "+91 9876543210",
+    "email": "info@powertech.com",
+    "address": "123 Industrial Area, Indore, Madhya Pradesh 452001, India",
+    "whatsapp": "+919876543210"
+  },
+  "hero": {
+    "title": "Safe, Reliable & Professional Electrical Services",
+    "subtitle": "Residential, Commercial & Industrial Electrical Solutions You Can Trust",
+    "image": "/images/hero.jpg",
+    "cta": {
+      "primary": "Call Now",
+      "secondary": "Get Quote"
+    }
+  },
+  "services": [
+    {
+      "id": "home-wiring",
+      "title": "Home Wiring",
+      "description": "Complete electrical wiring solutions for residential properties with safety compliance",
+      "icon": "home",
+      "details": "Professional home wiring services including new installations, rewiring, and upgrades. We ensure all work meets safety standards and building codes."
+    },
+    {
+      "id": "industrial-installation",
+      "title": "Industrial Installation",
+      "description": "Heavy-duty industrial electrical systems for factories and manufacturing units",
+      "icon": "factory",
+      "details": "Comprehensive industrial electrical solutions including power distribution, machinery wiring, and control systems installation."
+    },
+    {
+      "id": "electrical-repair",
+      "title": "Electrical Repair",
+      "description": "Quick and reliable electrical repair services for all types of electrical issues",
+      "icon": "wrench",
+      "details": "Expert troubleshooting and repair services for electrical faults, circuit breakers, outlets, and switches."
+    },
+    {
+      "id": "panel-installation",
+      "title": "Panel Installation",
+      "description": "Professional electrical panel installation and upgrades for enhanced safety",
+      "icon": "box",
+      "details": "Modern electrical panel installation and upgrades to handle increased power demands safely and efficiently."
+    },
+    {
+      "id": "lighting-setup",
+      "title": "Lighting Setup",
+      "description": "Modern lighting solutions for homes, offices, and commercial spaces",
+      "icon": "lightbulb",
+      "details": "Energy-efficient lighting design and installation including LED upgrades, outdoor lighting, and smart lighting systems."
+    },
+    {
+      "id": "maintenance",
+      "title": "Maintenance Services",
+      "description": "Regular electrical maintenance to prevent issues and ensure optimal performance",
+      "icon": "settings",
+      "details": "Scheduled maintenance programs to keep your electrical systems running smoothly and prevent costly breakdowns."
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "City Mall Electrical Setup",
+      "description": "Complete electrical installation for 5-floor shopping mall including backup power systems",
+      "image": "/images/project1.jpg",
+      "location": "Indore",
+      "category": "Commercial"
+    },
+    {
+      "id": "project-2",
+      "title": "Industrial Factory Wiring",
+      "description": "Heavy-duty electrical system for manufacturing facility with 500+ machines",
+      "image": "/images/project2.jpg",
+      "location": "Pithampur",
+      "category": "Industrial"
+    },
+    {
+      "id": "project-3",
+      "title": "Luxury Villa Electrical",
+      "description": "Smart home electrical system with automated lighting and security integration",
+      "image": "/images/project3.jpg",
+      "location": "Indore",
+      "category": "Residential"
+    },
+    {
+      "id": "project-4",
+      "title": "Office Complex Renovation",
+      "description": "Complete electrical renovation for 10-story office building",
+      "image": "/images/project4.jpg",
+      "location": "Vijay Nagar",
+      "category": "Commercial"
+    },
+    {
+      "id": "project-5",
+      "title": "Hospital Electrical System",
+      "description": "Critical power systems with redundant backup for 200-bed hospital",
+      "image": "/images/project5.jpg",
+      "location": "Indore",
+      "category": "Healthcare"
+    },
+    {
+      "id": "project-6",
+      "title": "Residential Complex",
+      "description": "Electrical installation for 100+ apartment residential complex",
+      "image": "/images/project6.jpg",
+      "location": "Bhopal",
+      "category": "Residential"
+    }
+  ],
+  "features": [
+    {
+      "title": "24/7 Emergency Service",
+      "description": "Round-the-clock emergency electrical services for urgent repairs and issues",
+      "icon": "clock"
+    },
+    {
+      "title": "Certified Electricians",
+      "description": "All our electricians are licensed, certified, and highly experienced professionals",
+      "icon": "award"
+    },
+    {
+      "title": "Safety Guaranteed",
+      "description": "We follow strict safety protocols and comply with all electrical safety standards",
+      "icon": "shield"
+    },
+    {
+      "title": "Affordable Pricing",
+      "description": "Competitive pricing with transparent quotes and no hidden charges",
+      "icon": "dollar-sign"
+    },
+    {
+      "title": "Quality Materials",
+      "description": "We use only premium quality electrical materials and components",
+      "icon": "check-circle"
+    },
+    {
+      "title": "Warranty Included",
+      "description": "All our work comes with comprehensive warranty coverage for your peace of mind",
+      "icon": "file-check"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "testimonial-1",
+      "name": "Rajesh Kumar",
+      "role": "Facility Manager",
+      "company": "Tech Solutions Pvt Ltd",
+      "content": "PowerTech handled our complete office electrical renovation. Their team was professional, punctual, and delivered exceptional quality work. Highly recommended!",
+      "rating": 5,
+      "image": "/images/testimonial1.jpg"
+    },
+    {
+      "id": "testimonial-2",
+      "name": "Priya Sharma",
+      "role": "Homeowner",
+      "company": "Residential Client",
+      "content": "We needed urgent electrical repairs at our home. PowerTech responded immediately and fixed everything perfectly. Great service and very reasonable pricing.",
+      "rating": 5,
+      "image": "/images/testimonial2.jpg"
+    },
+    {
+      "id": "testimonial-3",
+      "name": "Amit Patel",
+      "role": "Factory Owner",
+      "company": "Patel Industries",
+      "content": "They installed the complete electrical system for our new factory. The work quality is outstanding and they completed everything on schedule. Very satisfied!",
+      "rating": 5,
+      "image": "/images/testimonial3.jpg"
+    }
+  ],
+  "about": {
+    "title": "About PowerTech Electricals",
+    "subtitle": "Your Trusted Electrical Partner Since 2010",
+    "description": [
+      "PowerTech Electricals is a leading electrical services company serving residential, commercial, and industrial clients across Madhya Pradesh. With over 13 years of experience, we have successfully completed thousands of projects ranging from simple home repairs to complex industrial installations.",
+      "Our team of certified electricians is committed to delivering safe, reliable, and high-quality electrical solutions. We stay updated with the latest technologies and safety standards to provide our clients with the best possible service.",
+      "We take pride in our work and believe in building long-term relationships with our clients through honest service, transparent pricing, and exceptional quality."
+    ],
+    "stats": [
+      {
+        "label": "Years Experience",
+        "value": "13+"
+      },
+      {
+        "label": "Projects Completed",
+        "value": "5000+"
+      },
+      {
+        "label": "Happy Clients",
+        "value": "3500+"
+      },
+      {
+        "label": "Team Members",
+        "value": "50+"
+      }
+    ],
+    "mission": "To provide safe, reliable, and professional electrical services that exceed our clients' expectations while maintaining the highest standards of quality and safety.",
+    "vision": "To be the most trusted and preferred electrical services company in Central India, known for innovation, reliability, and customer satisfaction."
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "subtitle": "Have a project in mind? Let's discuss how we can help you.",
+    "formFields": {
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "service": "Service Required",
+      "message": "Project Details"
+    },
+    "submitButton": "Send Message"
+  },
+  "socialMedia": [
+    {
+      "platform": "Facebook",
+      "url": "https://facebook.com/powertech",
+      "icon": "facebook"
+    },
+    {
+      "platform": "Instagram",
+      "url": "https://instagram.com/powertech",
+      "icon": "instagram"
+    },
+    {
+      "platform": "LinkedIn",
+      "url": "https://linkedin.com/company/powertech",
+      "icon": "linkedin"
+    },
+    {
+      "platform": "Twitter",
+      "url": "https://twitter.com/powertech",
+      "icon": "twitter"
+    }
+  ],
+  "seo": {
+    "title": "PowerTech Electricals - Professional Electrical Services in Indore",
+    "description": "Leading electrical services company in Indore offering residential, commercial, and industrial electrical solutions. 24/7 emergency service, certified electricians, and quality guaranteed.",
+    "keywords": [
+      "electrical services indore",
+      "electrician indore",
+      "home wiring",
+      "industrial electrical",
+      "commercial electrical",
+      "electrical repair",
+      "panel installation",
+      "lighting setup",
+      "emergency electrician"
+    ]
+  }
+}

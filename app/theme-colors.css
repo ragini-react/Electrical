@@ -1,0 +1,112 @@
+/* Theme Color Overrides - Apply theme colors to Tailwind classes */
+
+/* ===== GRADIENT BACKGROUNDS ===== */
+/* Hero section */
+.bg-gradient-to-br.from-blue-950,
+.bg-gradient-to-br.from-blue-900 {
+  background: linear-gradient(135deg, var(--theme-primary-dark), var(--theme-primary)) !important;
+}
+
+/* CTA and horizontal gradients */
+.bg-gradient-to-r.from-blue-900,
+.bg-gradient-to-r.from-blue-800 {
+  background: linear-gradient(to right, var(--theme-primary), var(--theme-primary-dark)) !important;
+}
+
+/* Features section gradient */
+section.bg-gradient-to-br.from-blue-950 {
+  background: linear-gradient(135deg, var(--theme-primary-dark), var(--theme-primary)) !important;
+}
+
+/* Footer gradient */
+footer.bg-gradient-to-br {
+  background: linear-gradient(135deg, var(--theme-primary-dark), var(--theme-primary)) !important;
+}
+
+/* ===== BUTTONS AND CTAs ===== */
+.bg-gradient-to-r.from-blue-900.to-blue-700,
+.dark\:from-blue-600 {
+  background: linear-gradient(to right, var(--theme-primary), var(--theme-primary-dark)) !important;
+}
+
+/* ===== TEXT COLORS ===== */
+.text-blue-900,
+.text-blue-800 {
+  color: var(--theme-primary) !important;
+}
+
+.hover\:text-blue-900:hover,
+.dark\:hover\:text-blue-400:hover,
+.hover\:text-blue-400:hover {
+  color: var(--theme-primary) !important;
+}
+
+/* ===== BACKGROUND COLORS ===== */
+.bg-blue-900,
+.bg-blue-800,
+.bg-blue-700 {
+  background-color: var(--theme-primary) !important;
+}
+
+.from-blue-900,
+.from-blue-800,
+.from-blue-700 {
+  --tw-gradient-from: var(--theme-primary) !important;
+}
+
+.to-blue-900,
+.to-blue-800,
+.to-blue-700 {
+  --tw-gradient-to: var(--theme-primary-dark) !important;
+}
+
+/* ===== BORDER COLORS ===== */
+.border-blue-500,
+.border-blue-600 {
+  border-color: var(--theme-primary) !important;
+}
+
+/* ===== ICON BACKGROUNDS ===== */
+/* Service card icons */
+.from-blue-900.to-blue-700,
+.dark\:from-blue-600.dark\:to-blue-500 {
+  background: linear-gradient(to bottom right, var(--theme-primary), var(--theme-primary-dark)) !important;
+}
+
+/* Project card gradients */
+.from-blue-900.to-blue-700 {
+  background: linear-gradient(to bottom right, var(--theme-primary), var(--theme-primary-dark)) !important;
+}
+
+/* ===== FOCUS STATES ===== */
+.focus\:ring-blue-900:focus,
+.dark\:focus\:ring-blue-500:focus {
+  --tw-ring-color: var(--theme-primary) !important;
+}
+
+/* ===== HOVER STATES ===== */
+.group:hover .group-hover\:text-blue-900,
+.dark .group:hover .dark\:group-hover\:text-blue-400 {
+  color: var(--theme-primary) !important;
+}
+
+/* ===== DARK MODE VARIANTS ===== */
+.dark .dark\:from-blue-600,
+.dark .dark\:to-blue-500 {
+  background: linear-gradient(to bottom right, var(--theme-primary), var(--theme-primary-dark)) !important;
+}
+
+.dark .dark\:text-blue-400 {
+  color: var(--theme-primary) !important;
+}
+
+/* ===== SPECIFIC SECTIONS ===== */
+/* Contact form gradient box */
+.bg-gradient-to-br.from-blue-950.via-blue-900.to-blue-800 {
+  background: linear-gradient(135deg, var(--theme-primary-dark), var(--theme-primary), var(--theme-primary-dark)) !important;
+}
+
+/* Stats boxes in about page */
+.bg-gradient-to-br.from-blue-900.to-blue-700 {
+  background: linear-gradient(135deg, var(--theme-primary), var(--theme-primary-dark)) !important;
+}
