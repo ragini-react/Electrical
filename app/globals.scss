@@ -1,146 +1,120 @@
-@import "tailwindcss";
-
-@variant dark (&:where(.dark, .dark *));
-
-// SCSS Variables
-$bg-light: #ffffff;
-$bg-dark: #1a1a1a;
-$text-light: #1f2937;
-$text-dark: #e5e5e5;
-$transition-duration: 0.3s;
-
-// Theme Colors
-$theme-blue: #1e40af;
-$theme-purple: #7c3aed;
-$theme-pink: #db2777;
-$theme-green: #059669;
-$theme-yellow: #d97706;
-$theme-red: #dc2626;
-$theme-orange: #ea580c;
-$theme-teal: #0d9488;
-$theme-indigo: #4f46e5;
-$theme-cyan: #0891b2;
-$theme-lime: #65a30d;
-$theme-rose: #e11d48;
-$theme-sky: #0284c7;
-$theme-violet: #8b5cf6;
-$theme-fuchsia: #c026d3;
-$theme-amber: #f59e0b;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 @layer base {
   :root {
-    --theme-primary: #{$theme-blue};
+    --theme-primary: #1e40af;
     --theme-primary-dark: #1e3a8a;
   }
 
-  // Theme color classes
   :root[data-theme="blue"] {
-    --theme-primary: #{$theme-blue};
+    --theme-primary: #1e40af;
     --theme-primary-dark: #1e3a8a;
     --theme-bg-light: #eff6ff;
     --theme-bg-dark: #1e3a8a;
   }
 
   :root[data-theme="purple"] {
-    --theme-primary: #{$theme-purple};
+    --theme-primary: #7c3aed;
     --theme-primary-dark: #6d28d9;
     --theme-bg-light: #faf5ff;
     --theme-bg-dark: #581c87;
   }
 
   :root[data-theme="pink"] {
-    --theme-primary: #{$theme-pink};
+    --theme-primary: #db2777;
     --theme-primary-dark: #be185d;
     --theme-bg-light: #fdf2f8;
     --theme-bg-dark: #831843;
   }
 
   :root[data-theme="green"] {
-    --theme-primary: #{$theme-green};
+    --theme-primary: #059669;
     --theme-primary-dark: #047857;
     --theme-bg-light: #ecfdf5;
     --theme-bg-dark: #065f46;
   }
 
   :root[data-theme="yellow"] {
-    --theme-primary: #{$theme-yellow};
+    --theme-primary: #d97706;
     --theme-primary-dark: #b45309;
     --theme-bg-light: #fffbeb;
     --theme-bg-dark: #78350f;
   }
 
   :root[data-theme="red"] {
-    --theme-primary: #{$theme-red};
+    --theme-primary: #dc2626;
     --theme-primary-dark: #b91c1c;
     --theme-bg-light: #fef2f2;
     --theme-bg-dark: #450a0a;
   }
 
   :root[data-theme="orange"] {
-    --theme-primary: #{$theme-orange};
+    --theme-primary: #ea580c;
     --theme-primary-dark: #c2410c;
     --theme-bg-light: #fff7ed;
     --theme-bg-dark: #7c2d12;
   }
 
   :root[data-theme="teal"] {
-    --theme-primary: #{$theme-teal};
+    --theme-primary: #0d9488;
     --theme-primary-dark: #0f766e;
     --theme-bg-light: #f0fdfa;
     --theme-bg-dark: #134e4a;
   }
 
   :root[data-theme="indigo"] {
-    --theme-primary: #{$theme-indigo};
+    --theme-primary: #4f46e5;
     --theme-primary-dark: #4338ca;
     --theme-bg-light: #eef2ff;
     --theme-bg-dark: #3730a3;
   }
 
   :root[data-theme="cyan"] {
-    --theme-primary: #{$theme-cyan};
+    --theme-primary: #0891b2;
     --theme-primary-dark: #0e7490;
     --theme-bg-light: #ecfeff;
     --theme-bg-dark: #164e63;
   }
 
   :root[data-theme="lime"] {
-    --theme-primary: #{$theme-lime};
+    --theme-primary: #65a30d;
     --theme-primary-dark: #4d7c0f;
     --theme-bg-light: #f7fee7;
     --theme-bg-dark: #365314;
   }
 
   :root[data-theme="rose"] {
-    --theme-primary: #{$theme-rose};
+    --theme-primary: #e11d48;
     --theme-primary-dark: #be123c;
     --theme-bg-light: #fff1f2;
     --theme-bg-dark: #881337;
   }
 
   :root[data-theme="sky"] {
-    --theme-primary: #{$theme-sky};
+    --theme-primary: #0284c7;
     --theme-primary-dark: #0369a1;
     --theme-bg-light: #f0f9ff;
     --theme-bg-dark: #075985;
   }
 
   :root[data-theme="violet"] {
-    --theme-primary: #{$theme-violet};
+    --theme-primary: #8b5cf6;
     --theme-primary-dark: #7c3aed;
     --theme-bg-light: #f5f3ff;
     --theme-bg-dark: #6d28d9;
   }
 
   :root[data-theme="fuchsia"] {
-    --theme-primary: #{$theme-fuchsia};
+    --theme-primary: #c026d3;
     --theme-primary-dark: #a21caf;
     --theme-bg-light: #fdf4ff;
     --theme-bg-dark: #86198f;
   }
 
   :root[data-theme="amber"] {
-    --theme-primary: #{$theme-amber};
+    --theme-primary: #f59e0b;
     --theme-primary-dark: #d97706;
     --theme-bg-light: #fffbeb;
     --theme-bg-dark: #92400e;
@@ -158,34 +132,29 @@ $theme-amber: #f59e0b;
 
   body {
     font-family: var(--font-inter), system-ui, -apple-system, sans-serif;
-    background: $bg-light;
-    color: $text-light;
+    background: #ffffff;
+    color: #1f2937;
     overflow-x: hidden;
-    transition: background-color $transition-duration ease, 
-                color $transition-duration ease;
+    transition: background-color 0.3s ease, color 0.3s ease;
   }
 
-  // Dark mode styles with SCSS nesting
   .dark {
     color-scheme: dark;
+  }
 
-    body {
-      background: $bg-dark;
-      color: $text-dark;
-    }
+  .dark body {
+    background: #1a1a1a;
+    color: #e5e5e5;
   }
 }
 
-// Apply theme colors to common elements
-.bg-gradient-to-br,
-.bg-gradient-to-r {
-  &.from-blue-950,
-  &.from-blue-900 {
-    background: linear-gradient(to bottom right, var(--theme-primary-dark), var(--theme-primary)) !important;
-  }
+.bg-gradient-to-br.from-blue-950,
+.bg-gradient-to-br.from-blue-900,
+.bg-gradient-to-r.from-blue-950,
+.bg-gradient-to-r.from-blue-900 {
+  background: linear-gradient(to bottom right, var(--theme-primary-dark), var(--theme-primary)) !important;
 }
 
-// Theme-aware button and link colors
 .text-blue-900,
 .hover\:text-blue-900:hover {
   color: var(--theme-primary) !important;
